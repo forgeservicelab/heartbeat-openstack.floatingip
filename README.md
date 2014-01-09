@@ -10,4 +10,4 @@ The intention of this script is to simulate the VirtualIP floating mechanism for
 
    + **FloatingIP:** Actual allocation/deallocation script; typically it will reside under ```/usr/lib/ocf/resource.d/heartbeat/```.
 
-   + **nova.conf:** Sample configuration file, all fields are required. The name and location of this file is not enforced as the full path to it must be specified on ```/etc/ha.d/haresources```
+   + **nova.conf:** Sample configuration file, all fields are required. The name and location of this file is not enforced as the full path to it must be specified on ```/etc/ha.d/haresources``` but you would typically want it to reside under /etc/openstack/.
