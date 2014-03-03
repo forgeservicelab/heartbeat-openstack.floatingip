@@ -6,6 +6,7 @@ import sys
 import json
 import urllib2
 from novaclient.v1_1.client import Client
+from novaclient.exceptions import ClientException
 
 METADATA_URL = 'http://169.254.169.254/openstack/latest/meta_data.json'
 
